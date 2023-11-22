@@ -5,7 +5,7 @@ library(rvest)
 library(plyr)
 library(dplyr)
 
-years = c(2013:2019)
+years = c(2013:2023)
 urls = list()
 for (i in 1:length(years)) {
   url = paste0('https://www.baseball-reference.com/register/league.cgi?group=NCAA&year=',years[i],'#all_league_batting')
